@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <link rel= "stylesheet" type="text/css" href="assets/style.css"/>
+    <meta charset="UTF-8">
+    <title>Slideshow</title>
+</head>
+
+<body>
+    <div id ="title">Trivia Time
+    </div>
+
+    <div id = "container">
+    <div id="buttons">
+        <button id="start">
+            <h2>Start</h2>
+        </button>
+        <div id="timer"></div>
+        <div class="questions"></div>
+        <button id="done">
+            <h2>Done</h2>
+        </button>
+
+
+        <div id="endQuiz" class="visuallyhidden"> 
+            <p id= "correct-answerCount">Correct Answers:</p>
+            <p id = "incorrect-answerCount">Incorrect Answers:</p>
+            <p id = "unanswered-count">Unanswered:</p> 
+        </div>
+        <button id="restart" class="visuallyhidden">
+            <h2>Restart</h2>
+        </button>
+    </div>
+</div>
+
+    <div id="image-holder"></div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="trivia.js"></script>
+
+</body>
+
+</html>
